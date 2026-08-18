@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>MS in AI &mdash; Shortlist 2027</title>
+<style>
+:root{
+  --ground:#F4F6FA; --surface:#FFFFFF; --surface-2:#EDF0F7;
+  --ink:#12151D; --ink-2:#3A4254; --muted:#6B7385;
+  --line:#D8DDE9; --line-2:#C3CBDC;
+  --accent:#23408E; --accent-soft:#E3E9F8;
+  --pass:#1B6B45; --pass-soft:#DCEFE4;
+  --warn:#8A6100; --warn-soft:#F6EAD0;
+  --stop:#9C3320; --stop-soft:#F6E1DC;
+  --bar-bg:#E4E8F1;
+  --shadow:0 1px 2px rgba(18,21,29,.06),0 8px 24px -12px rgba(18,21,29,.18);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#0E1118; --surface:#161A24; --surface-2:#1D2230;
+    --ink:#E9ECF4; --ink-2:#B9C0D0; --muted:#8A93A6;
+    --line:#2A3143; --line-2:#3A4356;
+    --accent:#8AA6EC; --accent-soft:#1B2438;
+    --pass:#6FCF9B; --pass-soft:#12291E;
+    --warn:#E0B457; --warn-soft:#2B2312;
+    --stop:#F09A85; --stop-soft:#2E1813;
+    --bar-bg:#252C3C;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0E1118; --surface:#161A24; --surface-2:#1D2230;
+  --ink:#E9ECF4; --ink-2:#B9C0D0; --muted:#8A93A6;
+  --line:#2A3143; --line-2:#3A4356;
+  --accent:#8AA6EC; --accent-soft:#1B2438;
+  --pass:#6FCF9B; --pass-soft:#12291E;
+  --warn:#E0B457; --warn-soft:#2B2312;
+  --stop:#F09A85; --stop-soft:#2E1813;
+  --bar-bg:#252C3C;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px -12px rgba(0,0,0,.6);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--ground); color:var(--ink);
+  font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size:16px; line-height:1.6; margin:0; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1320px;margin:0 auto;padding:40px 20px 96px;display:flex;flex-direction:column;gap:42px}
+h1,h2,h3{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;font-weight:600;text-wrap:balance;margin:0;letter-spacing:-.01em}
+h1{font-size:clamp(1.9rem,4.2vw,2.8rem);line-height:1.08}
+h2{font-size:clamp(1.3rem,2.4vw,1.7rem);line-height:1.2}
+h3{font-size:1.02rem;line-height:1.3}
+p{margin:0;max-width:70ch}
+a{color:var(--accent)}
+a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:3px}
+.eyebrow{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.mast{border-bottom:2px solid var(--ink);padding-bottom:24px;display:flex;flex-direction:column;gap:14px}
+.mast .sub{color:var(--ink-2);font-size:1.05rem;max-width:72ch}
+.stamp{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline;font-size:.78rem;color:var(--muted)}
+.stamp b{color:var(--ink-2);font-weight:600}
+section{display:flex;flex-direction:column;gap:18px}
+.lede{color:var(--ink-2)}
+.gates{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.gate{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--line-2);border-radius:6px;padding:13px 15px;display:flex;flex-direction:column;gap:5px}
+.gate.ok{border-left-color:var(--pass)} .gate.mid{border-left-color:var(--warn)}
+.gate .v{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:1.1rem;font-weight:600}
+.gate .k{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+.gate .d{font-size:.83rem;color:var(--ink-2);line-height:1.45}
+.scroll{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--surface);box-shadow:var(--shadow)}
+table{border-collapse:collapse;width:100%;min-width:1120px;font-size:.85rem}
+thead th{
+  position:sticky;top:0;z-index:2;text-align:left;
+  font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.66rem;
+  letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:500;
+  padding:11px 12px;border-bottom:1px solid var(--line-2);background:var(--surface-2);white-space:nowrap;
+}
+td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.45}
+tbody tr:last-child td{border-bottom:none}
+td.r{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap;width:1%;padding-right:4px}
+td.d{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;white-space:nowrap;font-size:.79rem;color:var(--ink-2)}
+td.u{font-weight:600;line-height:1.3;min-width:148px}
+td.u small{display:block;font-weight:400;color:var(--muted);font-size:.75rem;margin-top:2px}
+td.p{font-size:.81rem;color:var(--ink-2);min-width:160px}
+td.g{font-size:.79rem;min-width:200px;color:var(--ink-2)}
+td.g b{color:var(--stop);font-weight:600}
+td.g i{font-style:normal;color:var(--pass);font-weight:600}
+td.ch{width:112px;min-width:112px}
+.pct{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-variant-numeric:tabular-nums;font-size:.86rem;font-weight:600;display:block;margin-bottom:4px;white-space:nowrap}
+.bar{height:4px;border-radius:2px;background:var(--bar-bg);overflow:hidden}
+.bar i{display:block;height:100%;border-radius:2px}
+.hi .pct{color:var(--pass)}   .hi .bar i{background:var(--pass)}
+.md .pct{color:var(--accent)} .md .bar i{background:var(--accent)}
+.lo .pct{color:var(--warn)}   .lo .bar i{background:var(--warn)}
+.no .pct{color:var(--stop)}   .no .bar i{background:var(--stop)}
+td.lk{width:96px;min-width:96px;white-space:nowrap}
+.lk a{
+  display:inline-block;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.68rem;
+  letter-spacing:.04em;text-transform:uppercase;text-decoration:none;padding:3px 7px;border-radius:3px;
+  border:1px solid var(--line-2);color:var(--accent);margin:0 3px 3px 0;
+}
+.lk a:hover{background:var(--accent-soft);border-color:var(--accent)}
+.lk a.mail{color:var(--pass);border-color:var(--pass)}
+.lk a.mail:hover{background:var(--pass-soft)}
+.lk a.gen{color:var(--muted)}
+tr.skip td{opacity:.62}
+tr.hero td{background:var(--pass-soft)}
+tr.hero td.u{font-weight:700}
+.legend{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:.79rem;color:var(--ink-2);align-items:center}
+.key{display:inline-flex;align-items:center;gap:7px}
+.key span.sw{width:22px;height:4px;border-radius:2px;display:inline-block}
+.callout{background:var(--accent-soft);border-radius:6px;padding:17px 19px;display:flex;flex-direction:column;gap:8px;border:1px solid var(--line)}
+.callout h3{color:var(--accent)}
+.urgent{background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--stop);border-radius:6px;padding:18px 20px;display:flex;flex-direction:column;gap:9px}
+.urgent .hd{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+.urgent .cd{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:1.35rem;font-weight:600;color:var(--stop)}
+ol.steps{margin:0;padding-left:0;list-style:none;counter-reset:s;display:flex;flex-direction:column;gap:11px}
+ol.steps li{counter-increment:s;display:grid;grid-template-columns:26px 1fr;gap:13px;align-items:baseline}
+ol.steps li::before{content:counter(s);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.76rem;color:var(--accent);border:1px solid var(--line-2);border-radius:50%;width:23px;height:23px;display:grid;place-items:center}
+footer{border-top:1px solid var(--line);padding-top:20px;color:var(--muted);font-size:.81rem;display:flex;flex-direction:column;gap:8px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="mast">
+  <div class="eyebrow">Application dossier &middot; compiled 17 August 2026</div>
+  <h1>QS Top 100 for Computer Science, with admission chance, deadlines and direct application links</h1>
+  <p class="sub">All 100 schools in the QS 2026 Computer Science &amp; Information Systems ranking, screened against one applicant profile. Deadlines, English floors, GRE rules and GPA minimums verified against university sources. Percentages are calibrated estimates &mdash; no university publishes admit rates by applicant.</p>
+  <div class="stamp">
+    <span><b>Profile</b> B.Tech CSE, NIT &middot; CGPA 8.32/10</span>
+    <span><b>GRE</b> 327 &mdash; V157 / Q170 / AW 3.5</span>
+    <span><b>IELTS</b> 7.0</span>
+    <span><b>Experience</b> ~1.5 yrs industry AI/ML &middot; no publications</span>
+  </div>
+</header>
+
+<section>
+  <div class="urgent">
+    <div class="hd">
+      <span class="cd">14 days</span>
+      <h3 style="margin:0">Penn State closes Spring 2027 on 31 August 2026 &mdash; 60% chance, January start</h3>
+    </div>
+    <p class="lede">GRE required, which is in hand. IELTS floor 6.5, cleared. Earliest live start on this list. Then USC on 15 September (45%), then Johns Hopkins on 1 October (40%, and <b>no application fee at all</b>).</p>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">How the four numbers move everything</div>
+  <div class="gates">
+    <div class="gate ok"><span class="k">GRE Quant</span><span class="v">170 / 170</span><span class="d">Clears every quantitative gate found, including TUM&rsquo;s 164 hard cutoff and Georgia Tech&rsquo;s 155. Submit it even where optional.</span></div>
+    <div class="gate mid"><span class="k">GRE Writing</span><span class="v">3.5 / 6.0</span><span class="d">Meets NUS&rsquo;s 3.5 minimum <em>exactly</em>. Fails TUM&rsquo;s 4.0 &mdash; the one score that zeroes a school outright.</span></div>
+    <div class="gate mid"><span class="k">IELTS</span><span class="v">7.0 / 9.0</span><span class="d">Sends six top-40 schools to 0%. A retake to 7.5 is worth roughly 90 percentage points across CMU, Georgia Tech, Purdue, Oxford, Cambridge and UIUC.</span></div>
+    <div class="gate ok"><span class="k">CGPA</span><span class="v">8.32 / 10</span><span class="d">Clears the 3.0/4.0 floors and McGill&rsquo;s 3.2. Sits below the 3.5 that UCLA and Michigan call typical &mdash; the main drag on US top-20 numbers.</span></div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">All 100, ranked by QS 2026 Computer Science &amp; Information Systems</div>
+  <h2>The full table</h2>
+  <div class="legend">
+    <span class="key"><span class="sw" style="background:var(--pass)"></span> 45%+ likely</span>
+    <span class="key"><span class="sw" style="background:var(--accent)"></span> 15&ndash;45% realistic</span>
+    <span class="key"><span class="sw" style="background:var(--warn)"></span> under 15% reach</span>
+    <span class="key"><span class="sw" style="background:var(--stop)"></span> 0% blocked today</span>
+    <span>&bull; <b>APPLY</b> = direct programme page &nbsp; <b>SITE</b> = official domain, no verified deep link &nbsp; <b>EMAIL</b> = verified admissions address</span>
+    <span>&bull; Faded rows: would likely admit, but not worth an application.</span>
+  </div>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>QS</th><th>University</th><th>Programme</th><th>Deadline</th><th>Chance</th><th>Links</th><th>What drives the number</th></tr></thead>
+      <tbody>
+
+<tr><td class="r">1</td><td class="u">MIT<small>United States</small></td><td class="p">SM in EECS</td><td class="d">Dec 2026</td><td class="ch no"><span class="pct">&lt;1%</span><span class="bar"><i style="width:1%"></i></span></td><td class="lk"><a class="gen" href="https://www.eecs.mit.edu/academics/graduate-programs/" target="_blank" rel="noopener">Site</a></td><td class="g">No terminal taught master&rsquo;s; SM admits on the PhD track and expects research output.</td></tr>
+
+<tr><td class="r">2</td><td class="u">Stanford<small>United States</small></td><td class="p">MS Computer Science</td><td class="d">~early Dec 2026</td><td class="ch no"><span class="pct">2&ndash;4%</span><span class="bar"><i style="width:3%"></i></span></td><td class="lk"><a href="https://www.cs.stanford.edu/admissions/masters-admissions" target="_blank" rel="noopener">Apply</a><a class="mail" href="mailto:admissions@cs.stanford.edu">Email</a></td><td class="g">Opens mid-Sep 2026; 2027 deadline unannounced (last cycle 2 Dec). Lottery ticket without publications.</td></tr>
+
+<tr><td class="r">3</td><td class="u">Carnegie Mellon<small>United States</small></td><td class="p">MSAII &mdash; AI &amp; Innovation</td><td class="d">09 Dec 2026</td><td class="ch no"><span class="pct">0%</span><span class="bar"><i style="width:2%"></i></span></td><td class="lk"><a href="https://msaii.cs.cmu.edu/how-apply" target="_blank" rel="noopener">Apply</a><a class="mail" href="mailto:albrown@andrew.cmu.edu">Email</a></td><td class="g"><b>IELTS 7.5 required, no waivers ever.</b> GRE mandatory and Q170 is a real asset &mdash; retake to ~10%.</td></tr>
+
+<tr><td class="r">4</td><td class="u">NUS<small>Singapore</small></td><td class="p">MComp Artificial Intelligence</td><td class="d">31 Jan 2027</td><td class="ch md"><span class="pct">25&ndash;35%</span><span class="bar"><i style="width:30%"></i></span></td><td class="lk"><a href="https://masters.nus.edu.sg/programmes/master-of-computing-in-artificial-intelligence" target="_blank" rel="noopener">Apply</a></td><td class="g">Needs GRE 320+ <i>and</i> AW 3.5. You post 327 and 3.5 &mdash; the writing gate clears by zero. GATE also accepted.</td></tr>
+
+<tr><td class="r">4</td><td class="u">Oxford<small>United Kingdom</small></td><td class="p">MSc Advanced Computer Science</td><td class="d">~Jan 2027</td><td class="ch no"><span class="pct">0%</span><span class="bar"><i style="width:2%"></i></span></td><td class="lk"><a href="https://www.ox.ac.uk/admissions/graduate/courses/msc-advanced-computer-science" target="_blank" rel="noopener">Apply</a></td><td class="g"><b>IELTS 7.5</b> plus CGPA 3.5/4.0. ~7&ndash;8% admit rate overall. Retake alone gets you to ~5%.</td></tr>
+
+<tr><td class="r">6</td><td class="u">UC Berkeley<small>United States</small></td><td class="p">MEng EECS</td><td class="d">~mid Jan 2027</td><td class="ch lo"><span class="pct">5&ndash;8%</span><span class="bar"><i style="width:7%"></i></span></td><td class="lk"><a href="https://eecs.berkeley.edu/academics/graduate/industry-programs/meng/" target="_blank" rel="noopener">Apply</a></td><td class="g">Reopens Sep 2026. GRE not accepted at all. Cohort skews to higher GPAs.</td></tr>
+
+<tr><td class="r">7</td><td class="u">Harvard<small>United States</small></td><td class="p">SEAS &mdash; CSE / Data Science</td><td class="d">Dec 2026</td><td class="ch no"><span class="pct">2&ndash;4%</span><span class="bar"><i style="width:3%"></i></span></td><td class="lk"><a class="gen" href="https://seas.harvard.edu/office-academic-programs" target="_blank" rel="noopener">Site</a></td><td class="g">No terminal MS in computer science exists. Adjacent degrees only &mdash; choose deliberately, not by brand.</td></tr>
+
+<tr><td class="r">8</td><td class="u">Cambridge<small>United Kingdom</small></td><td class="p">MPhil Advanced Computer Science</td><td class="d">25 Feb 2027</td><td class="ch no"><span class="pct">0%</span><span class="bar"><i style="width:2%"></i></span></td><td class="lk"><a href="https://www.cst.cam.ac.uk/admissions/acs" target="_blank" rel="noopener">Apply</a></td><td class="g"><b>IELTS 7.5 with 7.0 in every section.</b> The band minimum is the harder half. Retake to ~6%.</td></tr>
+
+<tr><td class="r">9</td><td class="u">NTU<small>Singapore</small></td><td class="p">MSc Artificial Intelligence</td><td class="d">rolling</td><td class="ch hi"><span class="pct">40&ndash;50%</span><span class="bar"><i style="width:45%"></i></span></td><td class="lk"><a href="https://www.ntu.edu.sg/education/graduate-programme/master-of-science-in-artificial-intelligence" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 6.5 clears. GRE optional but helps. Coursework-led and friendly to industry profiles. ~SGD 63k.</td></tr>
+
+<tr><td class="r">10</td><td class="u">ETH Zurich<small>Switzerland</small></td><td class="p">MSc Computer Science</td><td class="d">1&ndash;30 Nov 2026</td><td class="ch lo"><span class="pct">8&ndash;12%</span><span class="bar"><i style="width:10%"></i></span></td><td class="lk"><a href="https://ethz.ch/en/studies/master/application/master-informatik.html" target="_blank" rel="noopener">Apply</a></td><td class="g">Window is November, not December. Demands a bachelor closely mapped to ETH&rsquo;s own. CHF 150.</td></tr>
+
+<tr class="skip"><td class="r">11</td><td class="u">Tsinghua<small>China</small></td><td class="p">MSc Advanced Computing (English)</td><td class="d">Oct&ndash;Mar</td><td class="ch md"><span class="pct">15&ndash;25%</span><span class="bar"><i style="width:20%"></i></span></td><td class="lk"><a href="https://yz.tsinghua.edu.cn/en/" target="_blank" rel="noopener">Apply</a></td><td class="g">38 English graduate programmes exist. Screened out: hiring pathways back to India or the West are thin.</td></tr>
+
+<tr><td class="r">12</td><td class="u">Imperial College London<small>United Kingdom</small></td><td class="p">MSc AI Applications &amp; Innovation</td><td class="d">R1 opens Sep 2026</td><td class="ch md"><span class="pct">25&ndash;35%</span><span class="bar"><i style="width:30%"></i></span></td><td class="lk"><a href="https://www.imperial.ac.uk/study/courses/postgraduate-taught/applications-innovation/" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 7.0 <b>with 6.5 in every element</b> &mdash; your band split decides this outright. Apply in Round 1.</td></tr>
+
+<tr><td class="r">13</td><td class="u">Toronto<small>Canada</small></td><td class="p">MScAC Applied Computing</td><td class="d">~01 Dec 2026</td><td class="ch lo"><span class="pct">5&ndash;8%</span><span class="bar"><i style="width:7%"></i></span></td><td class="lk"><a href="https://mscac.utoronto.ca/apply/" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 7.0/6.5 clears. But Toronto publishes a <b>5&ndash;10% admit rate</b> across all applicants. Fall only.</td></tr>
+
+<tr><td class="r">14</td><td class="u">Princeton<small>United States</small></td><td class="p">MSE Computer Science</td><td class="d">Dec 2026</td><td class="ch no"><span class="pct">2&ndash;4%</span><span class="bar"><i style="width:3%"></i></span></td><td class="lk"><a class="gen" href="https://www.cs.princeton.edu/grad/admissions" target="_blank" rel="noopener">Site</a></td><td class="g">Tiny, research-oriented, effectively a PhD feeder. Not a coursework AI degree.</td></tr>
+
+<tr><td class="r">15</td><td class="u">EPFL<small>Switzerland</small></td><td class="p">MSc Computer Science / Data Science</td><td class="d">15 Dec 2026</td><td class="ch lo"><span class="pct">10&ndash;15%</span><span class="bar"><i style="width:12%"></i></span></td><td class="lk"><a href="https://www.epfl.ch/schools/ic/education/master/computer-science/education-master-computer-science-admission-criteria/" target="_blank" rel="noopener">Apply</a></td><td class="g">Tuition trivially cheap by comparison. Expects excellent bachelor grades; 8.32 is borderline. CHF 150.</td></tr>
+
+<tr class="skip"><td class="r">16</td><td class="u">Peking<small>China</small></td><td class="p">MSc Computer Science (English)</td><td class="d">Oct&ndash;Mar</td><td class="ch md"><span class="pct">15&ndash;25%</span><span class="bar"><i style="width:20%"></i></span></td><td class="lk"><a href="https://isd.pku.edu.cn/en/" target="_blank" rel="noopener">Apply</a></td><td class="g">Application-plus-examination route. Same market-access problem as Tsinghua.</td></tr>
+
+<tr><td class="r">17</td><td class="u">Cornell<small>United States</small></td><td class="p">MEng Computer Science</td><td class="d">rolling / Feb</td><td class="ch md"><span class="pct">20&ndash;30%</span><span class="bar"><i style="width:25%"></i></span></td><td class="lk"><a href="https://www.cs.cornell.edu/master-engineering-computer-science/apply" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 7.0 exactly. GRE explicitly ignored. Only two LORs. Rewards shipping work.</td></tr>
+
+<tr class="skip"><td class="r">18</td><td class="u">Institute of Science Tokyo<small>Japan</small></td><td class="p">Master of Engineering, CS</td><td class="d">varies</td><td class="ch md"><span class="pct">25&ndash;35%</span><span class="bar"><i style="width:30%"></i></span></td><td class="lk"><a class="gen" href="https://www.isct.ac.jp/en" target="_blank" rel="noopener">Site</a></td><td class="g">Supervisor-matched entry; Japanese helps materially for both study and hiring.</td></tr>
+
+<tr><td class="r">19</td><td class="u">UCLA<small>United States</small></td><td class="p">MS Computer Science</td><td class="d">15 Dec 2026</td><td class="ch lo"><span class="pct">8&ndash;12%</span><span class="bar"><i style="width:10%"></i></span></td><td class="lk"><a class="gen" href="https://www.cs.ucla.edu/graduate-admissions/" target="_blank" rel="noopener">Site</a></td><td class="g">IELTS 7.0 clears. They state competitive applicants hold 3.5+ &mdash; you sit under that line.</td></tr>
+
+<tr><td class="r">20</td><td class="u">UCL<small>United Kingdom</small></td><td class="p">MSc Machine Learning</td><td class="d">27 Mar 2027</td><td class="ch md"><span class="pct">15&ndash;20%</span><span class="bar"><i style="width:18%"></i></span></td><td class="lk"><a href="https://www.ucl.ac.uk/prospective-students/graduate/taught-degrees/machine-learning-msc" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 7.0 / 6.5 bands. Wants an upper-second with strong maths. Oversubscribed. £35k&ndash;42.7k.</td></tr>
+
+<tr><td class="r">21</td><td class="u">Yale<small>United States</small></td><td class="p">MS Computer Science</td><td class="d">Jan 2027</td><td class="ch lo"><span class="pct">5&ndash;8%</span><span class="bar"><i style="width:7%"></i></span></td><td class="lk"><a href="https://engineering.yale.edu/academic-study/departments/computer-science/graduate-study/master-science-program" target="_blank" rel="noopener">Apply</a></td><td class="g">Terminal MS exists and is career-oriented &mdash; but the cohort is very small.</td></tr>
+
+<tr class="hero"><td class="r">22</td><td class="u">Columbia<small>United States</small></td><td class="p">MS CS &mdash; ML or NLP pathway</td><td class="d">15 Oct 2026 (spring)</td><td class="ch hi"><span class="pct">45&ndash;55%</span><span class="bar"><i style="width:50%"></i></span></td><td class="lk"><a href="https://www.cs.columbia.edu/education/admissions8/" target="_blank" rel="noopener">Apply</a><a class="mail" href="mailto:ms-admissions@cs.columbia.edu">Email</a></td><td class="g">No AI track exists &mdash; pick Machine Learning. Fee $85, not $150. GRE optional; submit yours. Spring is lower-volume.</td></tr>
+
+<tr class="hero"><td class="r">22</td><td class="u">NYU Courant<small>United States</small></td><td class="p">MS Computer Science</td><td class="d">01 Nov 2026 (spring)</td><td class="ch hi"><span class="pct">40&ndash;50%</span><span class="bar"><i style="width:45%"></i></span></td><td class="lk"><a href="https://cs.nyu.edu/dynamic/masters/prospective-overview/" target="_blank" rel="noopener">Apply</a><a class="mail" href="mailto:ms.admissions@cs.nyu.edu">Email</a></td><td class="g">IELTS 7.0 exactly on the floor. GRE optional. Spring intake confirmed.</td></tr>
+
+<tr><td class="r">22</td><td class="u">Edinburgh<small>United Kingdom</small></td><td class="p">MSc Artificial Intelligence</td><td class="d">31 Mar 2027</td><td class="ch md"><span class="pct">20&ndash;30%</span><span class="bar"><i style="width:25%"></i></span></td><td class="lk"><a href="https://study.ed.ac.uk/programmes/postgraduate-taught/107-artificial-intelligence" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 7.0/6.5 clears, but <b>One Skill Retake is not accepted here</b>. Typical offer is a UK first.</td></tr>
+
+<tr><td class="r">22</td><td class="u">University of Washington<small>United States</small></td><td class="p">Allen School PMP</td><td class="d">&mdash;</td><td class="ch no"><span class="pct">0%</span><span class="bar"><i style="width:2%"></i></span></td><td class="lk"><a href="https://www.cs.washington.edu/academics/graduate/pmp/admissions/how-apply/" target="_blank" rel="noopener">Apply</a></td><td class="g"><b>Cannot admit anyone requiring an F-1 visa</b>, and requires you to already live in Seattle. Structurally shut.</td></tr>
+
+<tr><td class="r">26</td><td class="u">TUM<small>Germany</small></td><td class="p">MSc Informatics / Data Eng &amp; Analytics</td><td class="d">1 Oct&ndash;30 Nov 2026</td><td class="ch no"><span class="pct">0%</span><span class="bar"><i style="width:2%"></i></span></td><td class="lk"><a href="https://www.cit.tum.de/en/cit/studies/degree-programs/master-informatics/" target="_blank" rel="noopener">Apply</a></td><td class="g"><b>GRE AW 4.0 required; 3.5 is not accepted.</b> A qualifying GATE (CS) score substitutes &rarr; ~50% for Winter 2027.</td></tr>
+
+<tr><td class="r">27</td><td class="u">HKU<small>Hong Kong</small></td><td class="p">MSc Artificial Intelligence</td><td class="d">Feb 2027 clearing</td><td class="ch hi"><span class="pct">50&ndash;60%</span><span class="bar"><i style="width:55%"></i></span></td><td class="lk"><a href="https://www.mscai.hku.hk/programme/" target="_blank" rel="noopener">Apply</a></td><td class="g">Wants linear algebra, probability and programming &mdash; all on your transcript. HK$390k.</td></tr>
+
+<tr><td class="r">27</td><td class="u">UBC<small>Canada</small></td><td class="p">MSc Computer Science</td><td class="d">15 Dec 2026</td><td class="ch lo"><span class="pct">10&ndash;15%</span><span class="bar"><i style="width:13%"></i></span></td><td class="lk"><a href="https://www.grad.ubc.ca/prospective-students/graduate-degree-programs/master-of-science-computer-science" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 6.5 clears easily, but it is a <b>research MSc</b> &mdash; without a supervisor it does not happen.</td></tr>
+
+<tr><td class="r">27</td><td class="u">Waterloo<small>Canada</small></td><td class="p">MMath Computer Science</td><td class="d">varies</td><td class="ch md"><span class="pct">15&ndash;20%</span><span class="bar"><i style="width:18%"></i></span></td><td class="lk"><a href="https://cs.uwaterloo.ca/future-graduate-students/applying-admissions" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 6.5 (W6.0/S6.5); needs 78% honours &mdash; you clear at 83.2%. <b>Data Science stream needs 7.5</b>; apply to CS.</td></tr>
+
+<tr class="skip"><td class="r">30</td><td class="u">Shanghai Jiao Tong<small>China</small></td><td class="p">MSc Computer Science</td><td class="d">Oct&ndash;Mar</td><td class="ch md"><span class="pct">30&ndash;40%</span><span class="bar"><i style="width:35%"></i></span></td><td class="lk"><a class="gen" href="https://en.sjtu.edu.cn/admission/" target="_blank" rel="noopener">Site</a></td><td class="g">Would likely admit you. Screened out on post-study mobility, not quality.</td></tr>
+
+<tr><td class="r">31</td><td class="u">Melbourne<small>Australia</small></td><td class="p">Master of Computer Science</td><td class="d">~30 Nov 2026</td><td class="ch hi"><span class="pct">60&ndash;70%</span><span class="bar"><i style="width:65%"></i></span></td><td class="lk"><a href="https://study.unimelb.edu.au/find/courses/graduate/master-of-computer-science/how-to-apply/" target="_blank" rel="noopener">Apply</a></td><td class="g">Needs H2A (75%) plus 25 points of university maths &mdash; both satisfied. <b>February 2027 start.</b></td></tr>
+
+<tr class="hero"><td class="r">32</td><td class="u">UIUC<small>United States</small></td><td class="p">Master of Computer Science (on-campus)</td><td class="d">15 Oct 2026 (spring)</td><td class="ch md"><span class="pct">20&ndash;25%</span><span class="bar"><i style="width:23%"></i></span></td><td class="lk"><a href="https://siebelschool.illinois.edu/academics/graduate/professional-mcs/campus-master-computer-science" target="_blank" rel="noopener">Apply</a><a class="mail" href="mailto:grad-admissions@siebelschool.illinois.edu">Email</a></td><td class="g">No GRE for any Siebel programme. <b>Full status needs IELTS 7.5</b> &mdash; at 7.0 you get limited status. Fall 2027 closes 1 May.</td></tr>
+
+<tr><td class="r">33</td><td class="u">HKUST<small>Hong Kong</small></td><td class="p">MSc Artificial Intelligence</td><td class="d">R1 01 Nov 2026</td><td class="ch hi"><span class="pct">55&ndash;65%</span><span class="bar"><i style="width:60%"></i></span></td><td class="lk"><a href="https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-ai" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 6.5 with subs 5.5. Three rolling rounds &mdash; Round 1 matters materially. HK$400k.</td></tr>
+
+<tr><td class="r">34</td><td class="u">Georgia Tech<small>United States</small></td><td class="p">MS Computer Science</td><td class="d">01 Feb 2027</td><td class="ch no"><span class="pct">0%</span><span class="bar"><i style="width:2%"></i></span></td><td class="lk"><a href="https://www.cc.gatech.edu/ms-computer-science-admission-requirements" target="_blank" rel="noopener">Apply</a></td><td class="g"><b>IELTS 7.5 with band minimums.</b> GRE also required at V153/Q155/AW3.0 &mdash; all three cleared. English alone blocks. Retake &rarr; ~30%.</td></tr>
+
+<tr class="skip"><td class="r">34</td><td class="u">Zhejiang<small>China</small></td><td class="p">MSc Computer Science</td><td class="d">Oct&ndash;Mar</td><td class="ch md"><span class="pct">30&ndash;40%</span><span class="bar"><i style="width:35%"></i></span></td><td class="lk"><a class="gen" href="https://www.zju.edu.cn/english/" target="_blank" rel="noopener">Site</a></td><td class="g">Same reasoning as the other mainland entries.</td></tr>
+
+<tr><td class="r">36</td><td class="u">UPenn<small>United States</small></td><td class="p">MSE Artificial Intelligence (on-campus)</td><td class="d">01 Nov / 01 Feb</td><td class="ch lo"><span class="pct">5&ndash;8%</span><span class="bar"><i style="width:7%"></i></span></td><td class="lk"><a href="https://gradadm.seas.upenn.edu/how-to-apply/" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 7.5 stated as <i>recommended</i>, not absolute &mdash; worth one email. Fee $95. Beware: most search results describe the <em>online</em> degree.</td></tr>
+
+<tr><td class="r">37</td><td class="u">CUHK<small>Hong Kong</small></td><td class="p">MSc Artificial Intelligence</td><td class="d">rolling</td><td class="ch hi"><span class="pct">50&ndash;60%</span><span class="bar"><i style="width:55%"></i></span></td><td class="lk"><a href="https://mscai.erg.cuhk.edu.hk/admission" target="_blank" rel="noopener">Apply</a></td><td class="g">Comparable to HKUST/HKU. Held back only because those two rank higher in the same market.</td></tr>
+
+<tr><td class="r">38</td><td class="u">Sydney<small>Australia</small></td><td class="p">Master of Computer Science</td><td class="d">~15 Jan 2027</td><td class="ch hi"><span class="pct">60&ndash;70%</span><span class="bar"><i style="width:65%"></i></span></td><td class="lk"><a class="gen" href="https://www.sydney.edu.au/courses/" target="_blank" rel="noopener">Site</a></td><td class="g">IELTS 6.5. Quotas often fill 6&ndash;8 weeks before the published date. AUD 55k/yr.</td></tr>
+
+<tr><td class="r">39</td><td class="u">UT Austin<small>United States</small></td><td class="p">MS Computer Science</td><td class="d">15 Apr 2027</td><td class="ch lo"><span class="pct">8&ndash;12%</span><span class="bar"><i style="width:10%"></i></span></td><td class="lk"><a href="https://www.cs.utexas.edu/graduate-program/prospective-students/apply" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 6.5 &mdash; unusually low for this tier, so volume is enormous. GRE optional. Genuinely brutal.</td></tr>
+
+<tr><td class="r">40</td><td class="u">Caltech<small>United States</small></td><td class="p">&mdash;</td><td class="d">&mdash;</td><td class="ch no"><span class="pct">0%</span><span class="bar"><i style="width:2%"></i></span></td><td class="lk"><a class="gen" href="https://www.cms.caltech.edu/academics/grad_cs" target="_blank" rel="noopener">Site</a></td><td class="g"><b>No terminal master&rsquo;s in CS exists.</b> The degree is non-terminal and PhD-oriented. Nothing to apply to.</td></tr>
+
+<tr class="skip"><td class="r">41</td><td class="u">University of Tokyo<small>Japan</small></td><td class="p">Master, Information Science</td><td class="d">varies</td><td class="ch md"><span class="pct">15&ndash;25%</span><span class="bar"><i style="width:20%"></i></span></td><td class="lk"><a class="gen" href="https://www.u-tokyo.ac.jp/en/prospective-students/graduate.html" target="_blank" rel="noopener">Site</a></td><td class="g">Entrance-exam and supervisor driven. Japanese needed for most lab placements.</td></tr>
+
+<tr><td class="r">42</td><td class="u">UC San Diego<small>United States</small></td><td class="p">MS Computer Science &amp; Engineering</td><td class="d">~23 Dec 2026</td><td class="ch md"><span class="pct">20&ndash;25%</span><span class="bar"><i style="width:23%"></i></span></td><td class="lk"><a href="https://cse.ucsd.edu/graduate/admissions" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 7.0 exactly on the floor. GRE not required. Fall quarter only.</td></tr>
+
+<tr><td class="r">43</td><td class="u">McGill<small>Canada</small></td><td class="p">MSc Computer Science</td><td class="d">15 Dec 2026</td><td class="ch lo"><span class="pct">12&ndash;18%</span><span class="bar"><i style="width:15%"></i></span></td><td class="lk"><a href="https://www.cs.mcgill.ca/graduate/future/applying/" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 6.5 fine, but a <b>hard 3.2/4.0 CGPA floor</b> your conversion sits right on. Research degree, Fall only.</td></tr>
+
+<tr class="skip"><td class="r">44</td><td class="u">IIT Bombay<small>India</small></td><td class="p">M.Tech CSE</td><td class="d">GATE cycle</td><td class="ch no"><span class="pct">0%</span><span class="bar"><i style="width:2%"></i></span></td><td class="lk"><a class="gen" href="https://www.iitb.ac.in/en/education/academic-programmes" target="_blank" rel="noopener">Site</a></td><td class="g">Requires a valid GATE score; top IITs need rank under 200. Also defeats the goal of studying abroad.</td></tr>
+
+<tr class="skip"><td class="r">45</td><td class="u">IIT Delhi<small>India</small></td><td class="p">M.Tech CSE</td><td class="d">GATE cycle</td><td class="ch no"><span class="pct">0%</span><span class="bar"><i style="width:2%"></i></span></td><td class="lk"><a class="gen" href="https://home.iitd.ac.in/admission.php" target="_blank" rel="noopener">Site</a></td><td class="g">Same GATE gate. Sponsored route needs 2&ndash;3 years&rsquo; experience plus employer study leave.</td></tr>
+
+<tr><td class="r">46</td><td class="u">King&rsquo;s College London<small>United Kingdom</small></td><td class="p">MSc Artificial Intelligence</td><td class="d">rolling</td><td class="ch hi"><span class="pct">55&ndash;65%</span><span class="bar"><i style="width:60%"></i></span></td><td class="lk"><a href="https://www.kcl.ac.uk/study/postgraduate-taught/courses/artificial-intelligence-msc" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 7.0 clears. Comfortably within reach and a genuinely good AI curriculum.</td></tr>
+
+<tr class="skip"><td class="r">47</td><td class="u">Seoul National<small>South Korea</small></td><td class="p">MS Computer Science</td><td class="d">varies</td><td class="ch md"><span class="pct">20&ndash;30%</span><span class="bar"><i style="width:25%"></i></span></td><td class="lk"><a class="gen" href="https://en.snu.ac.kr/admission/graduate" target="_blank" rel="noopener">Site</a></td><td class="g">Supervisor-led; Korean matters for hiring. Strong GKS scholarships if you want this route.</td></tr>
+
+<tr><td class="r">48</td><td class="u">ANU<small>Australia</small></td><td class="p">Master of Machine Learning &amp; Computer Vision</td><td class="d">15 Dec 2026</td><td class="ch hi"><span class="pct">70&ndash;80%</span><span class="bar"><i style="width:75%"></i></span></td><td class="lk"><a href="https://programsandcourses.anu.edu.au/program/mmlcv" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 6.5/6.0, GPA 5/7 &mdash; cleared with room. Best true safety at a top-50 rank. AUD 50.8k.</td></tr>
+
+<tr class="skip"><td class="r">49</td><td class="u">Fudan<small>China</small></td><td class="p">MSc Computer Science</td><td class="d">Oct&ndash;Mar</td><td class="ch md"><span class="pct">30&ndash;40%</span><span class="bar"><i style="width:35%"></i></span></td><td class="lk"><a class="gen" href="https://iso.fudan.edu.cn/" target="_blank" rel="noopener">Site</a></td><td class="g">Screened out on market access.</td></tr>
+
+<tr><td class="r">50</td><td class="u">TU Delft<small>Netherlands</small></td><td class="p">MSc Computer Science</td><td class="d">15 Jan 2027</td><td class="ch md"><span class="pct">30&ndash;40%</span><span class="bar"><i style="width:35%"></i></span></td><td class="lk"><a href="https://www.tudelft.nl/en/education/programmes/masters/cs/msc-computer-science/admission-and-application/non-eu-efta-applicants-with-an-international-bachelor-degree" target="_blank" rel="noopener">Apply</a></td><td class="g"><b>GRE required for international diplomas</b> &mdash; Q170 is a direct competitive edge here. €25.6k/yr.</td></tr>
+
+<tr><td class="r">51</td><td class="u">Monash<small>Australia</small></td><td class="p">Master of Artificial Intelligence</td><td class="d">rolling</td><td class="ch hi"><span class="pct">70&ndash;80%</span><span class="bar"><i style="width:75%"></i></span></td><td class="lk"><a href="https://www.monash.edu/study/courses/find-a-course/artificial-intelligence-c6007" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 6.5, 60&ndash;65% average required. AUD 49.5k/yr. ACS accredited.</td></tr>
+
+<tr class="skip"><td class="r">52</td><td class="u">Sorbonne<small>France</small></td><td class="p">MSc Computer Science / AI</td><td class="d">spring 2027</td><td class="ch hi"><span class="pct">40&ndash;50%</span><span class="bar"><i style="width:45%"></i></span></td><td class="lk"><a class="gen" href="https://www.sorbonne-universite.fr/en/education" target="_blank" rel="noopener">Site</a></td><td class="g">Cheap and strong. Held back only because French shapes hiring outcomes.</td></tr>
+
+<tr><td class="r">52</td><td class="u">Michigan<small>United States</small></td><td class="p">MS Computer Science &amp; Engineering</td><td class="d">15 Jan 2027</td><td class="ch lo"><span class="pct">10&ndash;15%</span><span class="bar"><i style="width:13%"></i></span></td><td class="lk"><a href="https://cse.engin.umich.edu/academics/graduate/admissions/apply/" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 6.5. <b>They refuse to look at the GRE at all</b>, so Q170 buys nothing. Typical admit GPA 3.5.</td></tr>
+
+<tr><td class="r">54</td><td class="u">UNSW<small>Australia</small></td><td class="p">Master of Information Technology</td><td class="d">19 Nov 2026</td><td class="ch hi"><span class="pct">70&ndash;80%</span><span class="bar"><i style="width:75%"></i></span></td><td class="lk"><a href="https://www.unsw.edu.au/study/postgraduate/master-of-information-technology" target="_blank" rel="noopener">Apply</a></td><td class="g">That date is the <b>last offer round for applicants residing in India specifically</b>. AUD 63k/yr.</td></tr>
+
+<tr class="skip"><td class="r">55</td><td class="u">UTS<small>Australia</small></td><td class="p">Master of IT / AI</td><td class="d">rolling</td><td class="ch hi"><span class="pct">75&ndash;85%</span><span class="bar"><i style="width:80%"></i></span></td><td class="lk"><a class="gen" href="https://www.uts.edu.au/study/find-a-course" target="_blank" rel="noopener">Site</a></td><td class="g">Near-certain admit. Deprioritised only because four better-ranked Australian options already admit you.</td></tr>
+
+<tr class="skip"><td class="r">56</td><td class="u">Institut Polytechnique de Paris<small>France</small></td><td class="p">MSc Artificial Intelligence</td><td class="d">Jan&ndash;Mar 2027</td><td class="ch md"><span class="pct">20&ndash;30%</span><span class="bar"><i style="width:25%"></i></span></td><td class="lk"><a class="gen" href="https://www.ip-paris.fr/en/education/masters" target="_blank" rel="noopener">Site</a></td><td class="g">The strongest French option and taught in English. Genuinely worth reinstating if Europe appeals.</td></tr>
+
+<tr class="skip"><td class="r">56</td><td class="u">Université de Montréal<small>Canada</small></td><td class="p">MSc Informatique</td><td class="d">Feb 2027</td><td class="ch hi"><span class="pct">40&ndash;50%</span><span class="bar"><i style="width:45%"></i></span></td><td class="lk"><a class="gen" href="https://admission.umontreal.ca/en/" target="_blank" rel="noopener">Site</a></td><td class="g">Mila is here, a real draw for AI. French required for most coursework &mdash; the only reason it&rsquo;s faded.</td></tr>
+
+<tr class="skip"><td class="r">58</td><td class="u">Politecnico di Milano<small>Italy</small></td><td class="p">MSc Computer Science &amp; Engineering</td><td class="d">rounds to spring</td><td class="ch hi"><span class="pct">45&ndash;55%</span><span class="bar"><i style="width:50%"></i></span></td><td class="lk"><a class="gen" href="https://www.polimi.it/en/programmes" target="_blank" rel="noopener">Site</a></td><td class="g">English-taught, low tuition, good AI faculty. A reasonable reinstatement if cost dominates.</td></tr>
+
+<tr><td class="r">58</td><td class="u">Manchester<small>United Kingdom</small></td><td class="p">MSc Artificial Intelligence</td><td class="d">staged to May 2027</td><td class="ch hi"><span class="pct">50&ndash;60%</span><span class="bar"><i style="width:55%"></i></span></td><td class="lk"><a href="https://www.manchester.ac.uk/study/masters/courses/list/21574/msc-artificial-intelligence/" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 7.0 with <b>no sub-test below 6.5</b>. Staged deadlines reward early filing.</td></tr>
+
+<tr class="skip"><td class="r">60</td><td class="u">Tecnológico de Monterrey<small>Mexico</small></td><td class="p">MSc Computer Science</td><td class="d">varies</td><td class="ch hi"><span class="pct">60&ndash;70%</span><span class="bar"><i style="width:65%"></i></span></td><td class="lk"><a class="gen" href="https://tec.mx/en/admissions" target="_blank" rel="noopener">Site</a></td><td class="g">Visa pathway and post-study outcomes don&rsquo;t serve an AI career aimed at the US, EU or Australia.</td></tr>
+
+<tr><td class="r">61</td><td class="u">KTH<small>Sweden</small></td><td class="p">MSc Machine Learning</td><td class="d">15 Jan 2027</td><td class="ch hi"><span class="pct">40&ndash;50%</span><span class="bar"><i style="width:45%"></i></span></td><td class="lk"><a href="https://www.kth.se/en/studies/master/machine-learning/entry-requirements-machine-learning-1.48539" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 6.5 clears. SEK 360k/yr is steep for Europe. Two-year, 120 ECTS, taught in English.</td></tr>
+
+<tr><td class="r">62</td><td class="u">University of Amsterdam<small>Netherlands</small></td><td class="p">MSc Artificial Intelligence</td><td class="d">31 Jan 2027</td><td class="ch lo"><span class="pct">12&ndash;18%</span><span class="bar"><i style="width:15%"></i></span></td><td class="lk"><a href="https://www.uva.nl/shared-content/programmas/en/masters/artificial-intelligence/artificial-intelligence.html" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 7.0. One of Europe&rsquo;s most oversubscribed AI master&rsquo;s; demands 12+ EC of CS foundations.</td></tr>
+
+<tr class="skip"><td class="r">63</td><td class="u">KU Leuven<small>Belgium</small></td><td class="p">MSc Artificial Intelligence</td><td class="d">~1 Mar 2027</td><td class="ch hi"><span class="pct">40&ndash;50%</span><span class="bar"><i style="width:45%"></i></span></td><td class="lk"><a class="gen" href="https://www.kuleuven.be/english/education/master" target="_blank" rel="noopener">Site</a></td><td class="g">Excellent AI programme, low tuition, English-taught. Deprioritised against Delft, not excluded.</td></tr>
+
+<tr><td class="r">64</td><td class="u">University of Chicago<small>United States</small></td><td class="p">MPCS Computer Science</td><td class="d">rolling</td><td class="ch hi"><span class="pct">45&ndash;55%</span><span class="bar"><i style="width:50%"></i></span></td><td class="lk"><a href="https://masters.cs.uchicago.edu/mpcs-admissions/application-requirements/" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 7.0. GRE optional, but successful students hit the <b>80th percentile+ on Quant</b> &mdash; you are at the ceiling. Fee $90.</td></tr>
+
+<tr class="skip"><td class="r">65</td><td class="u">IIT Kanpur<small>India</small></td><td class="p">M.Tech CSE</td><td class="d">GATE cycle</td><td class="ch no"><span class="pct">0%</span><span class="bar"><i style="width:2%"></i></span></td><td class="lk"><a href="https://cse.iitk.ac.in/pages/AdmissionMTech.html" target="_blank" rel="noopener">Site</a></td><td class="g">GATE required for funded full-time seats.</td></tr>
+
+<tr><td class="r">66</td><td class="u">Purdue<small>United States</small></td><td class="p">MS Computer Science</td><td class="d">Dec 2026</td><td class="ch no"><span class="pct">0%</span><span class="bar"><i style="width:2%"></i></span></td><td class="lk"><a href="https://www.cs.purdue.edu/graduate/admission/english.html" target="_blank" rel="noopener">Apply</a></td><td class="g"><b>IELTS 7.5 overall with no band below 7.0</b> &mdash; the strictest phrasing on this entire list. Retake &rarr; ~30%.</td></tr>
+
+<tr class="skip"><td class="r">67</td><td class="u">City University of Hong Kong<small>Hong Kong</small></td><td class="p">MSc Artificial Intelligence</td><td class="d">rolling</td><td class="ch hi"><span class="pct">65&ndash;75%</span><span class="bar"><i style="width:70%"></i></span></td><td class="lk"><a href="https://www.cityu.edu.hk/pg/programme/program-list/2026/college-of-computing/department-of-computer-science/p75" target="_blank" rel="noopener">Apply</a></td><td class="g">Would very likely admit you. HKUST and HKU cover this market at a better rank.</td></tr>
+
+<tr class="skip"><td class="r">67</td><td class="u">IIT Kharagpur<small>India</small></td><td class="p">M.Tech CSE</td><td class="d">GATE cycle</td><td class="ch no"><span class="pct">0%</span><span class="bar"><i style="width:2%"></i></span></td><td class="lk"><a class="gen" href="https://www.iitkgp.ac.in/admissions" target="_blank" rel="noopener">Site</a></td><td class="g">GATE required.</td></tr>
+
+<tr class="hero"><td class="r">67</td><td class="u">Johns Hopkins<small>United States</small></td><td class="p">MSE Computer Science</td><td class="d">01 Oct 2026 (spring)</td><td class="ch md"><span class="pct">35&ndash;45%</span><span class="bar"><i style="width:40%"></i></span></td><td class="lk"><a href="https://www.cs.jhu.edu/academic-programs/graduate-studies/masters-computer-science/admissions" target="_blank" rel="noopener">Apply</a><a class="mail" href="mailto:admissions@cs.jhu.edu">Email</a></td><td class="g">IELTS 7.0 exactly. GRE optional. <b>No application fee whatsoever</b>, and it starts in January. Best risk-adjusted bet on the list.</td></tr>
+
+<tr class="skip"><td class="r">70</td><td class="u">Hong Kong Polytechnic<small>Hong Kong</small></td><td class="p">MSc AI &amp; Data Analytics</td><td class="d">rolling</td><td class="ch hi"><span class="pct">65&ndash;75%</span><span class="bar"><i style="width:70%"></i></span></td><td class="lk"><a class="gen" href="https://www.polyu.edu.hk/study/pg/" target="_blank" rel="noopener">Site</a></td><td class="g">Comfortable admit, but third in line among the Hong Kong options.</td></tr>
+
+<tr class="skip"><td class="r">71</td><td class="u">Universidade de São Paulo<small>Brazil</small></td><td class="p">MSc Computer Science</td><td class="d">varies</td><td class="ch md"><span class="pct">30&ndash;40%</span><span class="bar"><i style="width:35%"></i></span></td><td class="lk"><a class="gen" href="https://www5.usp.br/english/" target="_blank" rel="noopener">Site</a></td><td class="g">Portuguese-medium for most coursework; no realistic pathway to your target job markets.</td></tr>
+
+<tr class="skip"><td class="r">72</td><td class="u">Sapienza Rome<small>Italy</small></td><td class="p">MSc Artificial Intelligence &amp; Robotics</td><td class="d">rounds</td><td class="ch hi"><span class="pct">55&ndash;65%</span><span class="bar"><i style="width:60%"></i></span></td><td class="lk"><a class="gen" href="https://www.uniroma1.it/en/pagina/masters-degrees" target="_blank" rel="noopener">Site</a></td><td class="g">English-taught and very cheap. A legitimate budget option if US costs are the blocker.</td></tr>
+
+<tr class="skip"><td class="r">73</td><td class="u">Adelaide<small>Australia</small></td><td class="p">Master of Computer Science</td><td class="d">rolling</td><td class="ch hi"><span class="pct">80&ndash;85%</span><span class="bar"><i style="width:82%"></i></span></td><td class="lk"><a class="gen" href="https://www.adelaide.edu.au/degree-finder/" target="_blank" rel="noopener">Site</a></td><td class="g">Highest admit probability on the list. Only faded because five better-ranked Australian options already admit you.</td></tr>
+
+<tr class="hero"><td class="r">73</td><td class="u">USC Viterbi<small>United States</small></td><td class="p">MS Computer Science &mdash; Artificial Intelligence</td><td class="d">15 Sep 2026 (spring)</td><td class="ch hi"><span class="pct">40&ndash;50%</span><span class="bar"><i style="width:45%"></i></span></td><td class="lk"><a href="https://viterbigradadmission.usc.edu/programs/masters/msprograms/computer-science/ms-computer-science-artificial-intelligence/" target="_blank" rel="noopener">Apply</a></td><td class="g">A genuine AI track, not a rebranded CS degree. IELTS 6.5/6.0. GRE not required for 2027. Fee $120.</td></tr>
+
+<tr class="skip"><td class="r">73</td><td class="u">Université Paris-Saclay<small>France</small></td><td class="p">MSc Artificial Intelligence</td><td class="d">spring 2027</td><td class="ch hi"><span class="pct">40&ndash;50%</span><span class="bar"><i style="width:45%"></i></span></td><td class="lk"><a class="gen" href="https://www.universite-paris-saclay.fr/en/education" target="_blank" rel="noopener">Site</a></td><td class="g">Strong AI research base and English-taught tracks exist. Same French-market caveat.</td></tr>
+
+<tr class="skip"><td class="r">76</td><td class="u">TU Berlin<small>Germany</small></td><td class="p">MSc Computer Science</td><td class="d">~15 Jan 2027</td><td class="ch md"><span class="pct">35&ndash;45%</span><span class="bar"><i style="width:40%"></i></span></td><td class="lk"><a class="gen" href="https://www.tu.berlin/en/studying/study-programs" target="_blank" rel="noopener">Site</a></td><td class="g"><b>Worth reinstating precisely because TUM&rsquo;s AW gate blocks you</b> &mdash; near-zero tuition and no AW 4.0 rule found.</td></tr>
+
+<tr class="skip"><td class="r">76</td><td class="u">PSL<small>France</small></td><td class="p">MSc Computer Science / AI</td><td class="d">spring 2027</td><td class="ch md"><span class="pct">20&ndash;30%</span><span class="bar"><i style="width:25%"></i></span></td><td class="lk"><a class="gen" href="https://psl.eu/en/education" target="_blank" rel="noopener">Site</a></td><td class="g">Selective and research-led. French-market caveat applies.</td></tr>
+
+<tr><td class="r">78</td><td class="u">Queen Mary London<small>United Kingdom</small></td><td class="p">MSc Artificial Intelligence</td><td class="d">rolling</td><td class="ch hi"><span class="pct">70&ndash;80%</span><span class="bar"><i style="width:75%"></i></span></td><td class="lk"><a href="https://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/artificial-intelligence-msc/" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 6.5/6.0 &mdash; comfortable. A dependable UK backstop.</td></tr>
+
+<tr class="skip"><td class="r">79</td><td class="u">IIT Madras<small>India</small></td><td class="p">M.Tech CSE</td><td class="d">GATE cycle</td><td class="ch no"><span class="pct">0%</span><span class="bar"><i style="width:2%"></i></span></td><td class="lk"><a class="gen" href="https://www.iitm.ac.in/admissions" target="_blank" rel="noopener">Site</a></td><td class="g">GATE required.</td></tr>
+
+<tr class="skip"><td class="r">80</td><td class="u">Nanjing<small>China</small></td><td class="p">MSc Computer Science</td><td class="d">Oct&ndash;Mar</td><td class="ch hi"><span class="pct">40&ndash;50%</span><span class="bar"><i style="width:45%"></i></span></td><td class="lk"><a class="gen" href="https://www.nju.edu.cn/en/" target="_blank" rel="noopener">Site</a></td><td class="g">Screened out on market access.</td></tr>
+
+<tr class="skip"><td class="r">80</td><td class="u">Yonsei<small>South Korea</small></td><td class="p">MS Computer Science</td><td class="d">varies</td><td class="ch hi"><span class="pct">40&ndash;50%</span><span class="bar"><i style="width:45%"></i></span></td><td class="lk"><a class="gen" href="https://graduate.yonsei.ac.kr/graduate_en/index.do" target="_blank" rel="noopener">Site</a></td><td class="g">English-taught tracks exist; Korean still shapes hiring.</td></tr>
+
+<tr class="skip"><td class="r">82</td><td class="u">Korea University<small>South Korea</small></td><td class="p">MS Computer Science</td><td class="d">varies</td><td class="ch hi"><span class="pct">40&ndash;50%</span><span class="bar"><i style="width:45%"></i></span></td><td class="lk"><a class="gen" href="https://gradsch.korea.ac.kr/gradsch_en/index.do" target="_blank" rel="noopener">Site</a></td><td class="g">Same reasoning as Yonsei.</td></tr>
+
+<tr class="skip"><td class="r">82</td><td class="u">USTC<small>China</small></td><td class="p">MSc Computer Science</td><td class="d">Oct&ndash;Mar</td><td class="ch md"><span class="pct">35&ndash;45%</span><span class="bar"><i style="width:40%"></i></span></td><td class="lk"><a class="gen" href="https://en.ustc.edu.cn/" target="_blank" rel="noopener">Site</a></td><td class="g">Screened out on market access.</td></tr>
+
+<tr><td class="r">84</td><td class="u">Warwick<small>United Kingdom</small></td><td class="p">MSc Computer Science</td><td class="d">rolling</td><td class="ch hi"><span class="pct">60&ndash;70%</span><span class="bar"><i style="width:65%"></i></span></td><td class="lk"><a class="gen" href="https://warwick.ac.uk/fac/sci/dcs/admissions/" target="_blank" rel="noopener">Site</a></td><td class="g">IELTS 6.5/6.0 &mdash; comfortable. Solid, well-regarded and unfussy about GRE.</td></tr>
+
+<tr class="skip"><td class="r">85</td><td class="u">Harbin Institute of Technology<small>China</small></td><td class="p">MSc Computer Science</td><td class="d">Oct&ndash;Mar</td><td class="ch hi"><span class="pct">45&ndash;55%</span><span class="bar"><i style="width:50%"></i></span></td><td class="lk"><a class="gen" href="http://en.hit.edu.cn/" target="_blank" rel="noopener">Site</a></td><td class="g">Also subject to US entity-list complications for later mobility.</td></tr>
+
+<tr class="skip"><td class="r">86</td><td class="u">University of Malaya<small>Malaysia</small></td><td class="p">MSc Computer Science</td><td class="d">rolling</td><td class="ch hi"><span class="pct">70&ndash;80%</span><span class="bar"><i style="width:75%"></i></span></td><td class="lk"><a class="gen" href="https://www.um.edu.my/admission" target="_blank" rel="noopener">Site</a></td><td class="g">Easy admit, but weak signalling value against an existing NIT degree and industry experience.</td></tr>
+
+<tr class="skip"><td class="r">86</td><td class="u">VIT<small>India</small></td><td class="p">M.Tech CSE / AI</td><td class="d">VITMEE</td><td class="ch hi"><span class="pct">80&ndash;90%</span><span class="bar"><i style="width:85%"></i></span></td><td class="lk"><a class="gen" href="https://vit.ac.in/admissions" target="_blank" rel="noopener">Site</a></td><td class="g">A step sideways from an NIT B.Tech. No reason to pursue.</td></tr>
+
+<tr class="skip"><td class="r">88</td><td class="u">National Taiwan University<small>Taiwan</small></td><td class="p">MS Computer Science</td><td class="d">varies</td><td class="ch md"><span class="pct">30&ndash;40%</span><span class="bar"><i style="width:35%"></i></span></td><td class="lk"><a class="gen" href="https://oia.ntu.edu.tw/en/" target="_blank" rel="noopener">Site</a></td><td class="g">English tracks exist; limited onward mobility to your target markets.</td></tr>
+
+<tr><td class="r">88</td><td class="u">Maryland<small>United States</small></td><td class="p">MS Computer Science / Machine Learning</td><td class="d">varies</td><td class="ch md"><span class="pct">35&ndash;45%</span><span class="bar"><i style="width:40%"></i></span></td><td class="lk"><a href="https://www.cs.umd.edu/grad/apply" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 7.0. GRE waived entirely for the ML programme. Needs a four-year degree &mdash; you have one.</td></tr>
+
+<tr class="skip"><td class="r">90</td><td class="u">Beijing Institute of Technology<small>China</small></td><td class="p">MSc Computer Science</td><td class="d">Oct&ndash;Mar</td><td class="ch hi"><span class="pct">45&ndash;55%</span><span class="bar"><i style="width:50%"></i></span></td><td class="lk"><a class="gen" href="https://english.bit.edu.cn/" target="_blank" rel="noopener">Site</a></td><td class="g">Screened out on market access and export-control exposure.</td></tr>
+
+<tr><td class="r">91</td><td class="u">Duke<small>United States</small></td><td class="p">MS Computer Science</td><td class="d">~02 Feb 2027</td><td class="ch md"><span class="pct">15&ndash;20%</span><span class="bar"><i style="width:18%"></i></span></td><td class="lk"><a href="https://gradschool.duke.edu/academics/programs-degrees/computer-science-ms/" target="_blank" rel="noopener">Apply</a></td><td class="g"><b>GRE is required</b> for the MS &mdash; another place Q170 earns its keep. IELTS 7.0 clears.</td></tr>
+
+<tr class="skip"><td class="r">91</td><td class="u">LMU Munich<small>Germany</small></td><td class="p">MSc Computer Science</td><td class="d">~15 Jan 2027</td><td class="ch md"><span class="pct">35&ndash;45%</span><span class="bar"><i style="width:40%"></i></span></td><td class="lk"><a class="gen" href="https://www.lmu.de/en/study/all-degrees-and-programs/" target="_blank" rel="noopener">Site</a></td><td class="g">Second German option worth reinstating now that TUM is blocked. Very low tuition.</td></tr>
+
+<tr class="skip"><td class="r">93</td><td class="u">Lomonosov Moscow State<small>Russia</small></td><td class="p">MSc Computer Science</td><td class="d">varies</td><td class="ch hi"><span class="pct">40&ndash;50%</span><span class="bar"><i style="width:45%"></i></span></td><td class="lk"><a class="gen" href="https://www.msu.ru/en/" target="_blank" rel="noopener">Site</a></td><td class="g">Russian-medium and sanctions-affected. No viable pathway to your stated career targets.</td></tr>
+
+<tr class="skip"><td class="r">93</td><td class="u">Auckland<small>New Zealand</small></td><td class="p">Master of Computer Science</td><td class="d">rolling</td><td class="ch hi"><span class="pct">70&ndash;80%</span><span class="bar"><i style="width:75%"></i></span></td><td class="lk"><a class="gen" href="https://www.auckland.ac.nz/en/study.html" target="_blank" rel="noopener">Site</a></td><td class="g">Comfortable admit and a decent post-study visa, but a much thinner AI job market than Australia.</td></tr>
+
+<tr class="skip"><td class="r">95</td><td class="u">Bologna<small>Italy</small></td><td class="p">MSc Artificial Intelligence</td><td class="d">rounds</td><td class="ch hi"><span class="pct">55&ndash;65%</span><span class="bar"><i style="width:60%"></i></span></td><td class="lk"><a class="gen" href="https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-catalogue" target="_blank" rel="noopener">Site</a></td><td class="g">Dedicated English-taught AI master&rsquo;s at very low cost. Reasonable budget reinstatement.</td></tr>
+
+<tr><td class="r">95</td><td class="u">Boston University<small>United States</small></td><td class="p">MS Computer Science</td><td class="d">15 Mar 2027</td><td class="ch hi"><span class="pct">45&ndash;55%</span><span class="bar"><i style="width:50%"></i></span></td><td class="lk"><a href="https://www.bu.edu/cs/masters/program/faq/" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 7.0. GRE optional; admits average ~80th percentile Quant. <b>Spring intake discontinued</b> &mdash; Fall only now.</td></tr>
+
+<tr class="skip"><td class="r">95</td><td class="u">Kyoto<small>Japan</small></td><td class="p">Master, Informatics</td><td class="d">varies</td><td class="ch md"><span class="pct">20&ndash;30%</span><span class="bar"><i style="width:25%"></i></span></td><td class="lk"><a class="gen" href="https://www.kyoto-u.ac.jp/en/education-campus/curriculum" target="_blank" rel="noopener">Site</a></td><td class="g">Supervisor-matched; Japanese needed in practice.</td></tr>
+
+<tr class="hero"><td class="r">95</td><td class="u">Penn State<small>United States</small></td><td class="p">MS Computer Science &amp; Engineering</td><td class="d">31 Aug 2026 (spring)</td><td class="ch hi"><span class="pct">55&ndash;65%</span><span class="bar"><i style="width:60%"></i></span></td><td class="lk"><a href="https://www.eecs.psu.edu/students/graduate/eecs-how-to-apply-cse.aspx" target="_blank" rel="noopener">Apply</a><a class="mail" href="mailto:eegradapp@engr.psu.edu">Email</a></td><td class="g"><b>GRE required &mdash; you have it.</b> IELTS floor 6.5. Earliest January 2027 start available anywhere.</td></tr>
+
+<tr class="skip"><td class="r">99</td><td class="u">TU Wien<small>Austria</small></td><td class="p">MSc Logic &amp; Computation / Data Science</td><td class="d">~Feb 2027</td><td class="ch hi"><span class="pct">45&ndash;55%</span><span class="bar"><i style="width:50%"></i></span></td><td class="lk"><a class="gen" href="https://www.tuwien.at/en/studies/studies/master-programmes" target="_blank" rel="noopener">Site</a></td><td class="g">English-taught, near-zero tuition, EU Blue Card pathway. Another sensible substitute for TUM.</td></tr>
+
+<tr><td class="r">99</td><td class="u">Queensland<small>Australia</small></td><td class="p">Master of Computer Science</td><td class="d">Nov 2026</td><td class="ch hi"><span class="pct">75&ndash;85%</span><span class="bar"><i style="width:80%"></i></span></td><td class="lk"><a href="https://study.uq.edu.au/study-options/programs/master-computer-science-5522" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 6.5 with 6.0 in each band. February and July intakes both available.</td></tr>
+
+<tr class="hero"><td class="r">&mdash;</td><td class="u">Northeastern<small>United States &middot; outside QS 100</small></td><td class="p">MS Artificial Intelligence, Boston</td><td class="d">01 Nov 2026 (spring)</td><td class="ch hi"><span class="pct">60&ndash;70%</span><span class="bar"><i style="width:65%"></i></span></td><td class="lk"><a href="https://www.khoury.northeastern.edu/apply/masters-apply/" target="_blank" rel="noopener">Apply</a></td><td class="g">IELTS 6.5, GPA 3.0, needs 1 yr linear algebra + 1 yr stats. <b>Duolingo not accepted.</b> Included as a floor, not a target.</td></tr>
+
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <div class="callout">
+    <h3>The single highest-leverage move available</h3>
+    <p>Six schools sit at 0% purely on IELTS: CMU, Oxford, Cambridge, Georgia Tech, Purdue, plus UIUC full status. Moving 7.0 &rarr; 7.5 converts those into roughly 30% / 5% / 6% / 30% / 30% / 35%. Two constraints: <b>One Skill Retake only works within 60 days of a computer-delivered sitting</b>, and <b>Edinburgh does not accept One Skill Retake scores at all</b>. Do not let a retake delay the 15 September USC filing &mdash; 7.0 already clears USC.</p>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Execution</div>
+  <h2>The plan</h2>
+  <ol class="steps">
+    <li><span><b>This week.</b> File Penn State before 31 August. One application, ~60% odds, buys a January 2027 start using the GRE already in hand.</span></li>
+    <li><span><b>By 5 September.</b> Decide the IELTS retake &mdash; not for USC, which is already cleared, but to convert six zeros into live applications. Check first whether the original sitting was computer-delivered and inside 60 days.</span></li>
+    <li><span><b>15 September.</b> USC MS CS-AI, ~45%. The strongest genuine AI track winnable at this profile.</span></li>
+    <li><span><b>1 October.</b> Johns Hopkins, ~40%, no application fee, January start. No argument against filing it.</span></li>
+    <li><span><b>15 October &ndash; 1 November.</b> Columbia ML pathway (~50%), UIUC (~22%), NYU (~45%), Northeastern (~65%).</span></li>
+    <li><span><b>Register for GATE 2027.</b> The only key that reopens TUM after the AW 3.5, and NUS accepts it in place of the GRE. February exam, March results, fits TUM&rsquo;s Winter 2027 window.</span></li>
+    <li><span><b>Confirm IELTS band breakdown.</b> Imperial, UCL, Manchester and Edinburgh all gate on 6.5 in every band. Four numbers here stay provisional until then.</span></li>
+  </ol>
+</section>
+
+<footer>
+  <p><b>On the percentages.</b> No university publishes admission rates by applicant profile, so these are calibrated estimates for this specific profile &mdash; 8.32/10 from an NIT, GRE 327 with Q170, IELTS 7.0, ~1.5 years of applied LLM engineering, no publications. Where a real published figure exists it is used: Toronto MScAC 5&ndash;10%, Oxford ~7&ndash;8%. Treat them as a relative ordering to plan around, not as measurements.</p>
+  <p><b>On the facts.</b> Deadlines, English floors, GRE rules, GPA minimums, fees and programme availability were verified against university admissions pages on 17 August 2026. Dates marked &ldquo;~&rdquo; are unannounced for 2027 and carry the prior cycle&rsquo;s date. Links marked <b>Site</b> point to an official domain where no verified deep link was captured &mdash; navigate from there. Always confirm against the university&rsquo;s own page before filing.</p>
+  <p>Ranking source: QS World University Rankings by Subject 2026, Computer Science &amp; Information Systems.</p>
+</footer>
+
+</div>
+</body>
+</html>
